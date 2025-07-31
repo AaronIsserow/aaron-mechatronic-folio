@@ -75,19 +75,11 @@ const SkillsSection = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="space-y-6">
+                <div className="space-y-4">
                   {category.skills.map((skill, skillIndex) => (
-                    <div key={skillIndex} className="space-y-2">
-                      <div className="flex justify-between items-center">
-                        <span className="font-medium text-foreground">{skill.name}</span>
-                        <span className="text-sm text-muted-foreground">{skill.level}%</span>
-                      </div>
-                      <div className="w-full bg-muted rounded-full h-2">
-                        <div 
-                          className={`h-2 rounded-full transition-all duration-1000 ${getProgressColor(skill.level)}`}
-                          style={{ width: `${skill.level}%` }}
-                        ></div>
-                      </div>
+                    <div key={skillIndex} className="flex items-center gap-3">
+                      <div className="w-2 h-2 bg-secondary rounded-full"></div>
+                      <span className="font-medium text-foreground">{skill.name}</span>
                     </div>
                   ))}
                 </div>

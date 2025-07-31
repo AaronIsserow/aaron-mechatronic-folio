@@ -67,14 +67,14 @@ const ResumeSection = () => {
               </div>
 
               <div className="border-l-2 border-secondary pl-4">
-                <h3 className="font-semibold text-foreground">Final Year Project</h3>
-                <p className="text-secondary font-medium">UCT - EEE4113F</p>
+                <h3 className="font-semibold text-foreground">Training Programme</h3>
+                <p className="text-secondary font-medium">Cape Peninsula University of Technology (CPUT)</p>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground mt-1">
                   <Calendar size={14} />
-                  <span>2024</span>
+                  <span>December 2022</span>
                 </div>
                 <p className="text-sm text-muted-foreground mt-2">
-                  Penguin protection system with AI-powered monitoring
+                  2-week intensive training programme
                 </p>
               </div>
             </CardContent>
