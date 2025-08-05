@@ -11,10 +11,12 @@ const ResumeSection = () => {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Download my full CV or browse through my key experiences and education below.
           </p>
-          <Button className="mt-6 bg-secondary hover:bg-secondary/90 group">
+          <Button 
+            className="mt-6 bg-secondary hover:bg-secondary/90 group"
+            onClick={() => window.open('/aaron-cv.pdf', '_blank')}
+          >
             <Download size={20} className="mr-2" />
             Download CV (PDF)
-            {/* TODO: Replace with actual CV download link */}
           </Button>
         </div>
 
@@ -27,7 +29,7 @@ const ResumeSection = () => {
                 Education
               </CardTitle>
             </CardHeader>
-            <CardContent className="space-y-4">
+            <CardContent className="space-y-6">
               <div className="border-l-2 border-secondary pl-4">
                 <h3 className="font-semibold text-foreground">
                   Bachelor of Science in Mechatronics Engineering
@@ -40,6 +42,17 @@ const ResumeSection = () => {
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   <MapPin size={14} />
                   <span>Cape Town, South Africa</span>
+                </div>
+              </div>
+
+              <div className="border-l-2 border-secondary pl-4">
+                <h3 className="font-semibold text-foreground">
+                  Herzlia High School
+                </h3>
+                <p className="text-secondary font-medium">Matriculated</p>
+                <div className="flex items-center gap-2 text-sm text-muted-foreground mt-1">
+                  <Calendar size={14} />
+                  <span>2020</span>
                 </div>
               </div>
             </CardContent>

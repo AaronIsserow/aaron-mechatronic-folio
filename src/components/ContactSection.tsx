@@ -26,11 +26,22 @@ const ContactSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: Implement actual form submission logic
+    
+    // Create mailto link with form data
+    const subject = encodeURIComponent(formData.subject || "Contact from Portfolio");
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+    );
+    const mailtoLink = `mailto:aaron.isserow@gmail.com?subject=${subject}&body=${body}`;
+    
+    // Open default email client
+    window.location.href = mailtoLink;
+    
     toast({
-      title: "Message Sent!",
-      description: "Thank you for your message. I'll get back to you soon.",
+      title: "Opening email client",
+      description: "Your default email application should open with the message pre-filled.",
     });
+    
     setFormData({ name: "", email: "", subject: "", message: "" });
   };
 
@@ -38,22 +49,22 @@ const ContactSection = () => {
     {
       name: "Email",
       icon: <Mail size={20} />,
-      value: "aaron.isserow@example.com", // TODO: Replace with actual email
-      href: "mailto:aaron.isserow@example.com",
+      value: "aaron.isserow@gmail.com",
+      href: "mailto:aaron.isserow@gmail.com",
       description: "Send me an email"
     },
     {
       name: "LinkedIn",
       icon: <Linkedin size={20} />,
-      value: "linkedin.com/in/aaron-isserow", // TODO: Replace with actual LinkedIn
+      value: "Aaron Isserow",
       href: "https://linkedin.com/in/aaron-isserow",
       description: "Connect on LinkedIn"
     },
     {
       name: "GitHub",
       icon: <Github size={20} />,
-      value: "github.com/aaron-isserow", // TODO: Replace with actual GitHub
-      href: "https://github.com/aaron-isserow",
+      value: "AaronIsserow",
+      href: "https://github.com/AaronIsserow",
       description: "View my code"
     }
   ];
