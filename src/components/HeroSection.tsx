@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { FileText, ArrowRight } from "lucide-react";
+import aaronProfile from "@/assets/aaron-profile.jpg";
 
 const HeroSection = () => {
   const scrollToSection = (href: string) => {
@@ -51,8 +52,12 @@ const HeroSection = () => {
 
           <div className="flex justify-center lg:justify-end animate-fade-in">
             <div className="relative">
-              <div className="w-80 h-80 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 border-4 border-primary/20 shadow-2xl flex items-center justify-center">
-                <div className="text-8xl text-primary/40">⚙️</div>
+              <div className="w-80 h-80 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 border-4 border-primary/20 shadow-2xl overflow-hidden">
+                <img
+                  src={"/DA14E76E-0D6A-44D8-8ACD-A83EDF75D708.JPG"}
+                  alt="Aaron Isserow - Mechatronics Engineering Student"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-full -z-10 blur-xl"></div>
             </div>
