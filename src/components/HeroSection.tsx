@@ -17,17 +17,15 @@ const HeroSection = () => {
           <div className="space-y-8 animate-slide-in">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-primary">
-                Hi, I'm Aaron
+                Hi, I'm Aaron Isserow
               </h1>
               <h2 className="text-xl lg:text-2xl text-secondary font-medium">
-                Final-Year Mechatronics Engineering Student at UCT
+                Final-Year Mechatronics Engineering Student at University of Cape Town
               </h2>
             </div>
             
             <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
-              I'm passionate about solving real-world problems through engineering. 
-              Over the last four years, I've worked on a variety of technical projects 
-              ranging from control systems and robotics to embedded systems and web development.
+              I am a final year Mechatronics Engineering student at UCT with a passion for creating practical, working systems. I enjoy combining hardware and software to solve real world problems and have experience in control systems, embedded programming, and full stack development. I am curious, hands on, and always looking for my next challenge.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -54,7 +52,7 @@ const HeroSection = () => {
             <div className="relative">
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 border-4 border-primary/20 shadow-2xl overflow-hidden">
                 <img
-                  src={"/DA14E76E-0D6A-44D8-8ACD-A83EDF75D708.JPG"}
+                  src={"/ePicyure.jpg"}
                   alt="Aaron Isserow - Mechatronics Engineering Student"
                   className="w-full h-full object-cover"
                 />

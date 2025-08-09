@@ -88,25 +88,7 @@ const SkillsSection = () => {
           ))}
         </div>
 
-        {/* Additional Skills Summary */}
-        <div className="mt-12 text-center animate-fade-in">
-          <Card className="max-w-4xl mx-auto border-secondary/20">
-            <CardContent className="pt-6">
-              <h3 className="text-xl font-semibold text-secondary mb-4">Additional Competencies</h3>
-              <div className="grid md:grid-cols-3 gap-4 text-sm text-muted-foreground">
-                <div>
-                  <strong className="text-foreground">Machine Learning:</strong> TensorFlow, scikit-learn, data analysis
-                </div>
-                <div>
-                  <strong className="text-foreground">Project Management:</strong> Agile methodologies, team collaboration
-                </div>
-                <div>
-                  <strong className="text-foreground">Communication:</strong> Technical documentation, presentations
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
+
       </div>
     </section>
   );

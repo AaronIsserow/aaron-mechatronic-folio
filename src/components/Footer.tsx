@@ -21,14 +21,14 @@ const Footer = () => {
             </p>
             <div className="flex justify-center space-x-4">
               <a
-                href="mailto:aaron.isserow@example.com" // TODO: Replace with actual email
+                href="mailto:aaron.isserow@gmail.com"
                 className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-primary-foreground/20 transition-colors"
                 aria-label="Email"
               >
                 <Mail size={20} />
               </a>
               <a
-                href="https://linkedin.com/in/aaron-isserow" // TODO: Replace with actual LinkedIn
+                href="https://linkedin.com/in/aaron-isserow-6501b3257"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-primary-foreground/20 transition-colors"
@@ -37,7 +37,7 @@ const Footer = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="https://github.com/aaron-isserow" // TODO: Replace with actual GitHub
+                href="https://github.com/AaronIsserow"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-primary-foreground/20 transition-colors"
@@ -59,7 +59,7 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/60 text-xs">
             This portfolio is part of my academic coursework and showcases my journey 
-            through Mechatronics Engineering at UCT.
+                          through Mechatronics Engineering at University of Cape Town.
           </p>
         </div>
       </div>

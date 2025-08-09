@@ -49,7 +49,7 @@ const ResumeSection = () => {
                 <h3 className="font-semibold text-foreground">
                   Herzlia High School
                 </h3>
-                <p className="text-secondary font-medium">Matriculated</p>
+                <p className="text-secondary font-medium">Matriculated with 87 average</p>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground mt-1">
                   <Calendar size={14} />
                   <span>2020</span>
@@ -72,7 +72,7 @@ const ResumeSection = () => {
                 <p className="text-secondary font-medium">iiDENTIFii</p>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground mt-1">
                   <Calendar size={14} />
-                  <span>January 2025 - Present</span>
+                  <span>January - February 2025</span>
                 </div>
                 <p className="text-sm text-muted-foreground mt-2">
                   Web development and API integration projects
