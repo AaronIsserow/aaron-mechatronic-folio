@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import { Code, Cpu, Settings, Globe } from "lucide-react";
+import { Code, Cpu, Settings, Globe, BarChart3 } from "lucide-react";
 
 const SkillsSection = () => {
   const skillCategories = [
@@ -35,13 +35,13 @@ const SkillsSection = () => {
       ]
     },
     {
-      title: "Embedded & Hardware",
-      icon: <Cpu size={24} />,
+      title: "Business & Analytics",
+      icon: <BarChart3 size={24} />,
       skills: [
-        { name: "STM32 CubeIDE", level: 85 },
-        { name: "Sensor Integration", level: 80 },
-        { name: "PCB Design", level: 70 },
-        { name: "Microcontrollers", level: 85 },
+        { name: "Data Analysis", level: 80 },
+        { name: "Statistical Modeling", level: 75 },
+        { name: "Financial Modeling", level: 70 },
+        { name: "Business Strategy", level: 75 },
       ]
     },
   ];

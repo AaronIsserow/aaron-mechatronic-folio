@@ -43,16 +43,21 @@ const ResumeSection = () => {
                   <MapPin size={14} />
                   <span>Cape Town, South Africa</span>
                 </div>
+                <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                  <span className="text-secondary font-medium">Dean's Merit List 2024</span>
+                </div>
               </div>
 
               <div className="border-l-2 border-secondary pl-4">
                 <h3 className="font-semibold text-foreground">
                   Herzlia High School
                 </h3>
-                <p className="text-secondary font-medium">Matriculated with 87 average</p>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground mt-1">
                   <Calendar size={14} />
                   <span>2020</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                  <span className="text-secondary font-medium">Matriculated with 87 average</span>
                 </div>
               </div>
             </CardContent>
@@ -68,7 +73,7 @@ const ResumeSection = () => {
             </CardHeader>
             <CardContent className="space-y-6">
               <div className="border-l-2 border-secondary pl-4">
-                <h3 className="font-semibold text-foreground">Intern</h3>
+                <h3 className="font-semibold text-foreground">Software Developer Intern</h3>
                 <p className="text-secondary font-medium">iiDENTIFii</p>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground mt-1">
                   <Calendar size={14} />
@@ -76,6 +81,18 @@ const ResumeSection = () => {
                 </div>
                 <p className="text-sm text-muted-foreground mt-2">
                   Web development and API integration projects
+                </p>
+              </div>
+
+              <div className="border-l-2 border-secondary pl-4">
+                <h3 className="font-semibold text-foreground">Football Coach</h3>
+                <p className="text-secondary font-medium">Camps Bay Soccer Club</p>
+                <div className="flex items-center gap-2 text-sm text-muted-foreground mt-1">
+                  <Calendar size={14} />
+                  <span>2022 - 2024</span>
+                </div>
+                <p className="text-sm text-muted-foreground mt-2">
+                  Youth football coaching and player development
                 </p>
               </div>
 
