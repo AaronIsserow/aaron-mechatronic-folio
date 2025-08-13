@@ -57,7 +57,7 @@ const ContactSection = () => {
       name: "LinkedIn",
       icon: <Linkedin size={20} />,
       value: "Aaron Isserow",
-      href: "https://linkedin.com/in/aaron-isserow",
+      href: "https://linkedin.com/in/aaron-isserow-6501b3257",
       description: "Connect on LinkedIn"
     },
     {
