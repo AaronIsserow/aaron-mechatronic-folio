@@ -14,10 +14,8 @@ const AboutSection = () => {
               <p>
                 I am always drawn to projects that push me to learn new tools and skills, whether that means using MATLAB and Simulink for control design, programming STM32 microcontrollers for embedded systems, or developing full stack web applications to bring an idea to life. I enjoy problem solving that is hands on, collaborative, and focused on making something that works rather than just looks good on paper.
               </p>
-              
-              <h3 className="text-xl font-semibold text-primary mt-6">Hobbies & Interests</h3>
               <p>
-                Outside of academics, I am passionate about sport, especially soccer, and thrive in competitive and team driven environments. I have proudly represented South Africa at the U20 Indoor Soccer World Cup, competed in Sweden at the Gothia Cup, the largest youth soccer tournament in the world, reaching the last 16 and earning the Player of the Team award. I also served as vice captain at the Maccabi Games, experiences that strengthened my leadership, teamwork, and ability to perform under pressure. Beyond sport, I take every opportunity to explore, whether it is hiking, travelling, or embracing new challenges. I am driven by curiosity, a need to figure things out, and the belief that engineering is at its best when it is creative, practical, and impactful.
+                Outside of academics I am into sport, especially soccer, and I will take any opportunity to explore, whether that means hiking, travelling, or getting involved in a new challenge. I am driven by curiosity, a need to figure things out, and the belief that engineering is at its best when it is creative, practical, and impactful.
               </p>
             </div>
           </div>
