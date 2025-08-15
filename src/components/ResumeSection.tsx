@@ -13,7 +13,7 @@ const ResumeSection = () => {
           </p>
           <Button 
             className="mt-6 bg-secondary hover:bg-secondary/90 group"
-            onClick={() => window.open('/CVAARONUpdate2025.pdf', '_blank')}
+            onClick={() => window.open('https://drive.google.com/file/d/1KITJSTqDsP-2hL_1UXiQYFWl0rDqEEpl/view', '_blank')}
           >
             <Download size={20} className="mr-2" />
             Download CV (PDF)
