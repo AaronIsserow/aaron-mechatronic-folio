@@ -51,6 +51,10 @@ const ProjectsSection = () => {
             Here are some of the key projects I've worked on during my engineering journey. 
             Each project showcases different aspects of mechatronics engineering and problem-solving.
           </p>
+          <p className="text-sm text-muted-foreground mt-3 flex items-center justify-center gap-1">
+            <ExternalLink size={14} />
+            Project reports hosted securely on Google Drive
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">

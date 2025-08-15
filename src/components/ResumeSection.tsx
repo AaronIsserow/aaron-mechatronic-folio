@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Download, Calendar, MapPin, Building } from "lucide-react";
+import { Download, Calendar, MapPin, Building, ExternalLink } from "lucide-react";
 
 const ResumeSection = () => {
   return (
@@ -18,6 +18,10 @@ const ResumeSection = () => {
             <Download size={20} className="mr-2" />
             Download CV (PDF)
           </Button>
+          <p className="text-sm text-muted-foreground mt-2 flex items-center justify-center gap-1">
+            <ExternalLink size={14} />
+            Document hosted securely on Google Drive
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
