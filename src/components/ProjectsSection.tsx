@@ -37,7 +37,7 @@ const ProjectsSection = () => {
       description: "My comprehensive robotic system combining autonomous navigation, line following capabilities, and advanced sensor fusion. Demonstrates sensor integration, path planning, real-time control systems, and environmental perception.",
       image: robotProject,
       tags: ["Embedded", "Robotics", "STM32", "Sensors", "C", "Navigation", "Data Fusion"],
-      sensingReportLink: "https://drive.google.com/file/d/1CbS5VRxCjeFZ3eQxq83jm1TGy-iuwcpY/view",
+      sensingReportLink: "/EEE3088F_final_report_ISSAAR001-9 (1).pdf",
       navigationReportLink: "https://drive.google.com/file/d/1-zcNGRwCJqeKMQUkhS-NtixCjtWJ2dnR/view",
     },
   ];
@@ -52,8 +52,8 @@ const ProjectsSection = () => {
             Each project showcases my skills in mechatronics engineering and problem-solving.
           </p>
           <p className="text-sm text-muted-foreground mt-3 flex items-center justify-center gap-1">
-            <ExternalLink size={14} />
-            Project reports hosted securely on Google Drive
+            <FileText size={14} />
+            Project reports available for download
           </p>
         </div>
 
