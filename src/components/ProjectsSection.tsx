@@ -20,7 +20,7 @@ const ProjectsSection = () => {
     },
     {
       title: "Servo Design Lab",
-      description: "PI control system implementation using MATLAB/Simulink for precise servo motor control. Includes system modeling, controller design, and performance analysis.",
+      description: "My PI control system implementation using MATLAB/Simulink for precise servo motor control. Includes system modeling, controller design, and performance analysis.",
       image: matlabProject,
       tags: ["Control Systems", "MATLAB", "Simulink", "Engineering"],
       reportLink: "https://drive.google.com/file/d/19079p-1GpwgZ1aNdmV88LgH8GnmMVYLO/view",
@@ -34,7 +34,7 @@ const ProjectsSection = () => {
     },
     {
       title: "Advanced Robot Sensing & Navigation System",
-      description: "Comprehensive robotic system combining autonomous navigation, line following capabilities, and advanced sensor fusion. Demonstrates sensor integration, path planning, real-time control systems, and environmental perception.",
+      description: "My comprehensive robotic system combining autonomous navigation, line following capabilities, and advanced sensor fusion. Demonstrates sensor integration, path planning, real-time control systems, and environmental perception.",
       image: robotProject,
       tags: ["Embedded", "Robotics", "STM32", "Sensors", "C", "Navigation", "Data Fusion"],
       sensingReportLink: "https://drive.google.com/file/d/1CbS5VRxCjeFZ3eQxq83jm1TGy-iuwcpY/view",
@@ -49,7 +49,7 @@ const ProjectsSection = () => {
           <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-4">Projects</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Here are some of the key projects I've worked on during my engineering journey. 
-            Each project showcases different aspects of mechatronics engineering and problem-solving.
+            Each project showcases my skills in mechatronics engineering and problem-solving.
           </p>
           <p className="text-sm text-muted-foreground mt-3 flex items-center justify-center gap-1">
             <ExternalLink size={14} />
