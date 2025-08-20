@@ -6,39 +6,39 @@ import { ExternalLink, Github, FileText } from "lucide-react";
 import penguinProject from "@/assets/penguin-project.jpg";
 import robotProject from "@/assets/robot-project.jpg";
 import matlabProject from "@/assets/matlab-project.jpg";
-import engineeringWorkspace from "@/assets/engineering-workspace.jpg";
+import aaronProfile from "@/assets/aaron-profile.jpg";
 
 const ProjectsSection = () => {
   const projects = [
     {
       title: "Penguin Protection System",
-      description: "Web-based monitoring system with AI chat interface for protecting African penguins. Features real-time wildlife monitoring and intelligent threat detection.",
+      description: "My web-based monitoring system with AI chat interface for protecting African penguins. Features real-time wildlife monitoring and intelligent threat detection.",
       image: penguinProject,
       tags: ["Web App", "AI/ML", "Conservation", "React", "Python"],
       githubLink: "https://github.com/AaronIsserow/penguin-patrol-alert-system2.git",
-      reportLink: "https://drive.google.com/file/d/1WqkRuMgi-I-z5ppcqRZBO1Uv5XIjazT3/view",
+      reportLink: "/EEE4113F_Final_Report_Group_15.pdf",
     },
     {
       title: "Servo Design Lab",
       description: "PI control system implementation using MATLAB/Simulink for precise servo motor control. Includes system modeling, controller design, and performance analysis.",
       image: matlabProject,
       tags: ["Control Systems", "MATLAB", "Simulink", "Engineering"],
-      reportLink: "https://drive.google.com/file/d/19079p-1GpwgZ1aNdmV88LgH8GnmMVYLO/view",
+      reportLink: "/EEE4118F_2025_Group_18_Servo_Design_Report (1).pdf",
     },
     {
       title: "Save a City from an Asteroid (Simulation)",
-      description: "MATLAB simulation and control system design for asteroid deflection mission. Implements advanced control algorithms and trajectory optimization for planetary defense scenarios in a simulated environment.",
-      image: engineeringWorkspace,
+      description: "My MATLAB simulation and control system design for asteroid deflection mission. Implements advanced control algorithms and trajectory optimization for planetary defense scenarios in a simulated environment.",
+      image: aaronProfile,
       tags: ["Control Systems", "MATLAB", "Simulation", "Trajectory Optimization", "Engineering"],
-      reportLink: "https://drive.google.com/file/d/1gz0O8F8d8gPf11fulBOCz_AzxC4SEWb9/view",
+      reportLink: "/EEE3099S_Milestone3_Group18_ISSAAR001_VCHEMA001 (2).pdf",
     },
     {
       title: "Advanced Robot Sensing & Navigation System",
       description: "Comprehensive robotic system combining autonomous navigation, line following capabilities, and advanced sensor fusion. Demonstrates sensor integration, path planning, real-time control systems, and environmental perception.",
       image: robotProject,
       tags: ["Embedded", "Robotics", "STM32", "Sensors", "C", "Navigation", "Data Fusion"],
-      sensingReportLink: "https://drive.google.com/file/d/1CbS5VRxCjeFZ3eQxq83jm1TGy-iuwcpY/view",
-      navigationReportLink: "https://drive.google.com/file/d/1-zcNGRwCJqeKMQUkhS-NtixCjtWJ2dnR/view",
+      sensingReportLink: "/Milestone_4___Report__2_ (8).pdf",
+      navigationReportLink: "/EEE3088F_final_report_ISSAAR001-9 (1).pdf",
     },
   ];
 
@@ -52,8 +52,8 @@ const ProjectsSection = () => {
             Each project showcases different aspects of mechatronics engineering and problem-solving.
           </p>
           <p className="text-sm text-muted-foreground mt-3 flex items-center justify-center gap-1">
-            <ExternalLink size={14} />
-            Project reports hosted securely on Google Drive
+            <FileText size={14} />
+            Project reports available as PDF downloads
           </p>
         </div>
 
