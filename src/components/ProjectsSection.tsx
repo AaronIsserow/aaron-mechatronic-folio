@@ -30,7 +30,7 @@ const ProjectsSection = () => {
       description: "MATLAB simulation and control system design for asteroid deflection mission. Implements advanced control algorithms and trajectory optimization for planetary defense scenarios in a simulated environment.",
       image: engineeringWorkspace,
       tags: ["Control Systems", "MATLAB", "Simulation", "Trajectory Optimization", "Engineering"],
-      reportLink: "/Milestone_4___Report__2__ (8).pdf",
+      reportLink: "/Milestone_4___Report__2_ (8).pdf",
     },
     {
       title: "Advanced Robot Sensing & Navigation System",
