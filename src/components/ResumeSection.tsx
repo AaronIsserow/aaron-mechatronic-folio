@@ -13,14 +13,14 @@ const ResumeSection = () => {
           </p>
           <Button 
             className="mt-6 bg-secondary hover:bg-secondary/90 group"
-            onClick={() => window.open('/CVAARONUpdate2025.pdf', '_blank')}
+            onClick={() => window.open('https://drive.google.com/file/d/1KITJSTqDsP-2hL_1UXiQYFWl0rDqEEpl/view', '_blank')}
           >
             <Download size={20} className="mr-2" />
-            View Resume (PDF)
+            Download CV (PDF)
           </Button>
           <p className="text-sm text-muted-foreground mt-2 flex items-center justify-center gap-1">
-            <FileText size={14} />
-            Resume available as PDF download
+            <ExternalLink size={14} />
+            Document hosted securely on Google Drive
           </p>
         </div>
 
