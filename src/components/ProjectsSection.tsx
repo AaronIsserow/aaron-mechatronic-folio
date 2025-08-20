@@ -16,21 +16,21 @@ const ProjectsSection = () => {
       image: penguinProject,
       tags: ["Web App", "AI/ML", "Conservation", "React", "Python"],
       githubLink: "https://github.com/AaronIsserow/penguin-patrol-alert-system2.git",
-      reportLink: "https://drive.google.com/file/d/1WqkRuMgi-I-z5ppcqRZBO1Uv5XIjazT3/view",
+      reportLink: "/EEE4113F_Final_Report_Group_15.pdf",
     },
     {
       title: "Servo Design Lab",
       description: "My PI control system implementation using MATLAB/Simulink for precise servo motor control. Includes system modeling, controller design, and performance analysis.",
       image: matlabProject,
       tags: ["Control Systems", "MATLAB", "Simulink", "Engineering"],
-      reportLink: "https://drive.google.com/file/d/19079p-1GpwgZ1aNdmV88LgH8GnmMVYLO/view",
+      reportLink: "/EEE4118F_2025_Group_18_Servo_Design_Report (1).pdf",
     },
     {
       title: "Save a City from an Asteroid (Simulation)",
       description: "MATLAB simulation and control system design for asteroid deflection mission. Implements advanced control algorithms and trajectory optimization for planetary defense scenarios in a simulated environment.",
       image: engineeringWorkspace,
       tags: ["Control Systems", "MATLAB", "Simulation", "Trajectory Optimization", "Engineering"],
-      reportLink: "https://drive.google.com/file/d/1gz0O8F8d8gPf11fulBOCz_AzxC4SEWb9/view",
+      reportLink: "/Milestone_4___Report__2__ (8).pdf",
     },
     {
       title: "Advanced Robot Sensing & Navigation System",
@@ -38,7 +38,7 @@ const ProjectsSection = () => {
       image: robotProject,
       tags: ["Embedded", "Robotics", "STM32", "Sensors", "C", "Navigation", "Data Fusion"],
       sensingReportLink: "/EEE3088F_final_report_ISSAAR001-9 (1).pdf",
-      navigationReportLink: "https://drive.google.com/file/d/1-zcNGRwCJqeKMQUkhS-NtixCjtWJ2dnR/view",
+      navigationReportLink: "/EEE3099S_Milestone3_Group18_ISSAAR001_VCHEMA001 (2).pdf",
     },
   ];
 
