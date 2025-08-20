@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Download, Calendar, MapPin, Building, ExternalLink } from "lucide-react";
+import { Download, Calendar, MapPin, Building, FileText } from "lucide-react";
 
 const ResumeSection = () => {
   return (
@@ -13,14 +13,14 @@ const ResumeSection = () => {
           </p>
           <Button 
             className="mt-6 bg-secondary hover:bg-secondary/90 group"
-            onClick={() => window.open('https://drive.google.com/file/d/1KITJSTqDsP-2hL_1UXiQYFWl0rDqEEpl/view', '_blank')}
+            onClick={() => window.open('/CVAARONUpdate2025.pdf', '_blank')}
           >
             <Download size={20} className="mr-2" />
             Download CV (PDF)
           </Button>
           <p className="text-sm text-muted-foreground mt-2 flex items-center justify-center gap-1">
-            <ExternalLink size={14} />
-            Document hosted securely on Google Drive
+            <FileText size={14} />
+            PDF document available for download
           </p>
         </div>
 
